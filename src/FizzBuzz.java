@@ -3,7 +3,7 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         /*for (int i = 1; i < 100; i++) {
 
@@ -38,7 +38,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int j) {
+    public static int doFizzBuzz(int j) {
         boolean d3 = j % 3 == 0;
         boolean d5 = j % 5 == 0;
 
